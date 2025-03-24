@@ -1,0 +1,7 @@
+---
+name: GtIpc
+version: 0.0.1
+main: gameparrot\gtipc\Main
+api: 5.25.2
+src-namespace-prefix: gameparrot\gtipc
+...

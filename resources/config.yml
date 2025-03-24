@@ -1,0 +1,14 @@
+# Path to unix socket
+Socket-Path: "/tmp/gtipc.sock"
+
+# Key of server (only used when isServer is set to false; connecting to ipc server)
+Server-Key: "default"
+
+# If true, serve ipc clients instead of connecting to server. Not recommended for proxy usage.
+Is-Server: false
+
+# If true, disable xbox auth. Recommended if the ipc server is a proxy
+Xbox-Auth-Disabled: false
+
+# If true, block default raklib interfaces. Recommended if the ipc server is a proxy
+Block-Default-Interfaces: true
